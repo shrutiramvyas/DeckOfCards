@@ -11,6 +11,8 @@ public class Cards {
     public String[] player4 = new String[9];
     ArrayList<String> totalCards = new ArrayList<>();
 
+
+
     public void totalCardsMethod(){
         String selectCard;
         for( int i = 0; i < suits.length; i++ ){
